@@ -50,7 +50,7 @@ module.exports = {
   MAX_UPLOAD: process.env.MAX_UPLOAD || 230,
   REJECT_CALL: toBool(process.env.REJECT_CALL),
   VPS: toBool(process.env.VPS),
-  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'false').trim(),
+  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'true').trim(),
   SEND_READ: toBool(process.env.SEND_READ),
   KOYEB: toBool(process.env.KOYEB),
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
@@ -60,7 +60,7 @@ module.exports = {
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
   APPROVE: (process.env.APPROVE || '').trim(),
   ANTI_DELETE: (process.env.ANTI_DELETE || 'null').trim(),
-  PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'null',
+  PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'Hello, this Amz Amein's assistant bot; Please leave me a message and I'll deliver it to my owner',
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE
     ? toBool(process.env.DISABLE_START_MESSAGE)
     : false,
@@ -77,7 +77,7 @@ module.exports = {
   LIST_TYPE: (process.env.LIST_TYPE || 'poll').trim(),
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
   GEMINI_API_KEY: (process.env.GEMINI_API_KEY || '').trim(),
-  ADMINS: process.env.GROUP_ADMINS || '',
+  ADMINS: process.env.GROUP_ADMINS || '254112837755, 254756692272',
   RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
 }
